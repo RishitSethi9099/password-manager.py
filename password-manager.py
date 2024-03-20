@@ -6,7 +6,7 @@ from rich import print
 from rich.prompt import Prompt
 
 def setup():
-    a = mysql.connector.connect(host="localhost", user="root", passwd="246853")
+    a = mysql.connector.connect(host="localhost", user="root", passwd="******")
     c = a.cursor()
 
     try:
